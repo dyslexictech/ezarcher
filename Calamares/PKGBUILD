@@ -3,7 +3,7 @@
 pkgname=calamares
 pkgver=3.2.39.3
 _pkgver=3.2.39.3
-pkgrel=2
+pkgrel=3
 pkgdesc='Distribution-independent installer framework'
 arch=('x86_64')
 license=(GPL)
@@ -15,7 +15,7 @@ depends=('kconfig' 'cmake' 'kcoreaddons' 'kiconthemes' 'ki18n' 'kio' 'solid' 'ya
 makedepends=('extra-cmake-modules' 'qt5-tools' 'qt5-translations' 'git' 'boost')
 
 source=("$pkgname-$pkgver.tar.gz::https://github.com/calamares/calamares/releases/download/v$pkgver/calamares-$pkgver.tar.gz")
-sha256sums=('SKIP')
+sha256sums=('7e4a10564ca17690534e4661db50799df82a3b3739c619fabbf25c1dd449a0be')
 
 prepare() {
 	cd ${srcdir}/calamares-${pkgver}
